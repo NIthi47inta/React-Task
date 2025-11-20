@@ -51,7 +51,7 @@ function AddTask() {
       .insert({
         Title: Title,
         Detail: Detail,
-        Completed: Completed,
+        completed: Completed,
         ImageURL: ImgURL
       })
       if(error){
@@ -121,3 +121,4 @@ function AddTask() {
 
 
 export default AddTask
+
