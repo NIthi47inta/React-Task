@@ -55,7 +55,7 @@ function AddTask() {
         ImageURL: ImgURL
       })
       if(error){
-        alert("Something went Wrong. Please Try again")
+        alert("Something went Wrong. Please Try again error with DB")
         return
       }else{
         alert("Success")
@@ -118,5 +118,6 @@ function AddTask() {
     </>
   )
 }
+
 
 export default AddTask
