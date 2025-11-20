@@ -51,7 +51,7 @@ function AddTask() {
       .insert({
         Title: Title,
         Detail: Detail,
-        completed: Completed,
+        Completed: Completed,
         ImageURL: ImgURL
       })
       if(error){
